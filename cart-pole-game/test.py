@@ -35,7 +35,7 @@ circle.body.apply_force_at_local_point((1000, 1000), (0.1, 0.2))
 
 
 cart = pymunk.Body(mass=0, moment=0)
-cart.position = 320, 240
+cart.position = 320, 140
 rectangle = pymunk.Poly(cart, [(10,10),(20,10),(20,15),(10,15)])
 
 space.add(body, circle, segment, right, left, top, cart)
